@@ -1,68 +1,77 @@
 public class Singers {
-    private int id;
-    private String name;
-    private String address;
-    private int dob;
-    private int albums;
+    private int Id;
+    private String Name;
+    private String Address;
+    private int Dob;
+    private int Albums;
 
     public Singers(){}
 
     public Singers(int id){
-        this.id = id;
+        this.Id = id;
     }
     public Singers(int id, String name){
-        this.id = id;
-        this.name = name;
+        this.Id = id;
+        this.Name = name;
     }
     public Singers(int id, String name, String address){
-        this.id = id;
-        this.name = name;
-        this.address = address;
+        this.Id = id;
+        this.Name = name;
+        this.Address = address;
     }
     public Singers(int id, String name, String address, int dob){
-        this.id = id;
-        this.name = name;
-        this.address = address;
-        this.dob = dob;
+        this.Id = id;
+        this.Name = name;
+        this.Address = address;
+        this.Dob = dob;
     }
     public Singers(int id, String name, String address, int dob, int albums){
-        this.id = id;
-        this.name = name;
-        this.address = address;
-        this.dob = dob;
-        this.albums = albums;
+        this.Id = id;
+        this.Name = name;
+        this.Address = address;
+        this.Dob = dob;
+        this.Albums = albums;
     }
 
     public void setId(int id){
-        this.id = id;
+        this.Id = id;
     }
     public void setName(String name){
-        this.name = name;
+        this.Name = name;
     }
     public void setAddress(String address){
-        this.address = address;
+        this.Address = address;
     }
     public void setDob(int dob){
-        this.dob = dob;
+        this.Dob = dob;
     }
     public void setAlbums(int albums){
-        this.albums = albums;
+        this.Albums = albums;
     }
 
+    //method to set all parameters at once
+//    public void setParameters(int id, String name, String address, int dob, int albums){
+//        this.Id = id;
+//        this.Name = name;
+//        this.Address = address;
+//        this.Dob = dob;
+//        this.Albums = albums;
+//    }
+
     public int getId(){
-        return id;
+        return Id;
     }
     public String getName(){
-        return name;
+        return Name;
     }
     public String getAddress(){
-        return address;
+        return Address;
     }
     public int getDob(){
-        return dob;
+        return Dob;
     }
     public int getAlbums(){
-        return albums;
+        return Albums;
     }
 
 
